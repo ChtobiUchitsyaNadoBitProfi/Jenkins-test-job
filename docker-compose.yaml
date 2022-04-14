@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+    gontainer:
+        image: first-gontainer:1
+        ports:
+            - "8080-8085:8080"
